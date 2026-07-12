@@ -1,25 +1,39 @@
-# AssetFlow
+# AssetFlow Enterprise Asset & Resource Management System
 
-Enterprise Asset & Resource Management System
+AssetFlow is a web-based Enterprise Asset & Resource Management System developed using React and Vite. It helps organizations efficiently manage assets, bookings, maintenance, and notifications through a modern, responsive user interface.
 
 ## Features
-- Dashboard
+
+- Secure Login Page
+- Dashboard with Asset Summary
 - Asset Management
-- Asset Allocation
-- Resource Booking
+- Asset Booking
 - Maintenance Tracking
-- Reports
+- Notifications
+- Responsive UI
 
 ## Tech Stack
-- HTML
-- CSS
-- JavaScript
 
-## Future Scope
-- React Frontend
-- Node.js Backend
-- PostgreSQL Database
+- React
+- Vite
+- JavaScript
+- CSS
+
+## Team Contribution
+
+### Frontend
+- Login
+- Dashboard
+- Asset Pages
+- Booking Pages
+- Forms
+- Responsive UI
+
+## Future Enhancements
+
+- Spring Boot Backend
+- MySQL Database
 - JWT Authentication
+- Role-Based Access Control
 - QR Code Asset Tracking
-- Notifications
-- Analytics Dashboard
+- Reports & Analytics
