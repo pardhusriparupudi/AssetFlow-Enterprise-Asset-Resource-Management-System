@@ -1,0 +1,161 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f4f7fc;
+}
+
+.container{
+    display:flex;
+    min-height:100vh;
+}
+
+.sidebar{
+    width:250px;
+    background:#1e293b;
+    color:white;
+    padding:30px 20px;
+}
+
+.sidebar h2{
+    text-align:center;
+    margin-bottom:40px;
+    font-size:28px;
+}
+
+.sidebar ul{
+    list-style:none;
+}
+
+.sidebar li{
+    padding:15px;
+    margin:12px 0;
+    border-radius:10px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.sidebar li:hover,
+.sidebar .active{
+    background:#2563eb;
+}
+
+.sidebar i{
+    margin-right:10px;
+}
+
+.main{
+    flex:1;
+    padding:30px;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:35px;
+}
+
+header h1{
+    color:#1e293b;
+}
+
+.profile{
+    background:white;
+    padding:10px 18px;
+    border-radius:12px;
+    box-shadow:0 3px 10px rgba(0,0,0,.08);
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    border-radius:15px;
+    padding:25px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card h3{
+    color:#64748b;
+    margin-bottom:10px;
+    font-weight:500;
+}
+
+.card h2{
+    font-size:38px;
+    color:#2563eb;
+}
+
+.table{
+    margin-top:40px;
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.table h2{
+    margin-bottom:20px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+th,td{
+    padding:15px;
+    text-align:left;
+    border-bottom:1px solid #eee;
+}
+
+th{
+    background:#2563eb;
+    color:white;
+}
+
+.green{
+    color:#16a34a;
+    font-weight:600;
+}
+
+.orange{
+    color:#ea580c;
+    font-weight:600;
+}
+
+.blue{
+    color:#2563eb;
+    font-weight:600;
+}
+
+@media(max-width:768px){
+
+.container{
+    flex-direction:column;
+}
+
+.sidebar{
+    width:100%;
+}
+
+header{
+    flex-direction:column;
+    gap:20px;
+}
+
+}
